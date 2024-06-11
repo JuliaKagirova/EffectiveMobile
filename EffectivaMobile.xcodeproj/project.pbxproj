@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F509C3B2C145DD000CADBB5 /* AirTicketsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C3A2C145DD000CADBB5 /* AirTicketsVC.swift */; };
+		1F509C3D2C145DDE00CADBB5 /* AirTicketsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C3C2C145DDE00CADBB5 /* AirTicketsVM.swift */; };
+		1F509C402C145E2B00CADBB5 /* HotelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C3F2C145E2B00CADBB5 /* HotelsVC.swift */; };
+		1F509C422C145E4300CADBB5 /* HotelsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C412C145E4300CADBB5 /* HotelsVM.swift */; };
+		1F509C452C145E8D00CADBB5 /* ShortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C442C145E8D00CADBB5 /* ShortVC.swift */; };
+		1F509C472C145EA600CADBB5 /* ShortVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C462C145EA600CADBB5 /* ShortVM.swift */; };
+		1F509C4B2C145EE500CADBB5 /* SubscriptionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C4A2C145EE500CADBB5 /* SubscriptionVM.swift */; };
+		1F509C4D2C145EEF00CADBB5 /* ProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C4C2C145EEF00CADBB5 /* ProfileVM.swift */; };
+		1F509C4F2C145F0600CADBB5 /* SubscriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C4E2C145F0600CADBB5 /* SubscriptionVC.swift */; };
+		1F509C512C145F2100CADBB5 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C502C145F2100CADBB5 /* ProfileVC.swift */; };
+		1F509C532C14667300CADBB5 /* AirTicketsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C522C14667300CADBB5 /* AirTicketsDetailVC.swift */; };
+		1F509C552C1466B300CADBB5 /* AirTicketsDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C542C1466B300CADBB5 /* AirTicketsDetailVM.swift */; };
+		1F509C582C14C63300CADBB5 /* ExtUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C572C14C63300CADBB5 /* ExtUIView.swift */; };
+		1F509C5A2C14CEF900CADBB5 /* ModalScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C592C14CEF900CADBB5 /* ModalScreenVC.swift */; };
+		1F509C622C171A1F00CADBB5 /* ButtonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C612C171A1F00CADBB5 /* ButtonsModel.swift */; };
+		1F509C642C171BE800CADBB5 /* ButtonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C632C171BE800CADBB5 /* ButtonsCell.swift */; };
+		1F509C662C171EE600CADBB5 /* ModalScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C652C171EE600CADBB5 /* ModalScreenVM.swift */; };
+		1F509C682C17214300CADBB5 /* ButtonsCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F509C672C17214300CADBB5 /* ButtonsCoordinatorProtocol.swift */; };
+		1F944B232C14458000ECA891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F944B222C14458000ECA891 /* AppDelegate.swift */; };
+		1F944B252C14458000ECA891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F944B242C14458000ECA891 /* SceneDelegate.swift */; };
+		1F944B2C2C14458200ECA891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F944B2B2C14458200ECA891 /* Assets.xcassets */; };
+		1F944B2F2C14458200ECA891 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1F944B2E2C14458200ECA891 /* Base */; };
+		1F944B3B2C144D0000ECA891 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F944B3A2C144D0000ECA891 /* BaseCoordinator.swift */; };
+		1F944B3D2C144F3500ECA891 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F944B3C2C144F3500ECA891 /* MainCoordinator.swift */; };
+		1F944B482C14525C00ECA891 /* AirTicketsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F944B472C14525B00ECA891 /* AirTicketsCoordinator.swift */; };
+		1F944B4A2C14538E00ECA891 /* HotelsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F944B492C14538E00ECA891 /* HotelsCoordinator.swift */; };
+		1F944B4C2C14545C00ECA891 /* ShortCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F944B4B2C14545C00ECA891 /* ShortCoordinator.swift */; };
+		1F944B4E2C1454F100ECA891 /* SubscriptionsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F944B4D2C1454F100ECA891 /* SubscriptionsCoordinator.swift */; };
+		1F944B502C14554600ECA891 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F944B4F2C14554600ECA891 /* ProfileCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F509C3A2C145DD000CADBB5 /* AirTicketsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsVC.swift; sourceTree = "<group>"; };
+		1F509C3C2C145DDE00CADBB5 /* AirTicketsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsVM.swift; sourceTree = "<group>"; };
+		1F509C3F2C145E2B00CADBB5 /* HotelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsVC.swift; sourceTree = "<group>"; };
+		1F509C412C145E4300CADBB5 /* HotelsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsVM.swift; sourceTree = "<group>"; };
+		1F509C442C145E8D00CADBB5 /* ShortVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortVC.swift; sourceTree = "<group>"; };
+		1F509C462C145EA600CADBB5 /* ShortVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortVM.swift; sourceTree = "<group>"; };
+		1F509C4A2C145EE500CADBB5 /* SubscriptionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionVM.swift; sourceTree = "<group>"; };
+		1F509C4C2C145EEF00CADBB5 /* ProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVM.swift; sourceTree = "<group>"; };
+		1F509C4E2C145F0600CADBB5 /* SubscriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionVC.swift; sourceTree = "<group>"; };
+		1F509C502C145F2100CADBB5 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		1F509C522C14667300CADBB5 /* AirTicketsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsDetailVC.swift; sourceTree = "<group>"; };
+		1F509C542C1466B300CADBB5 /* AirTicketsDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsDetailVM.swift; sourceTree = "<group>"; };
+		1F509C572C14C63300CADBB5 /* ExtUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIView.swift; sourceTree = "<group>"; };
+		1F509C592C14CEF900CADBB5 /* ModalScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreenVC.swift; sourceTree = "<group>"; };
+		1F509C612C171A1F00CADBB5 /* ButtonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsModel.swift; sourceTree = "<group>"; };
+		1F509C632C171BE800CADBB5 /* ButtonsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsCell.swift; sourceTree = "<group>"; };
+		1F509C652C171EE600CADBB5 /* ModalScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreenVM.swift; sourceTree = "<group>"; };
+		1F509C672C17214300CADBB5 /* ButtonsCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		1F944B1F2C14458000ECA891 /* EffectivaMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectivaMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F944B222C14458000ECA891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F944B242C14458000ECA891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F944B2B2C14458200ECA891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F944B2E2C14458200ECA891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F944B302C14458200ECA891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F944B3A2C144D0000ECA891 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		1F944B3C2C144F3500ECA891 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		1F944B472C14525B00ECA891 /* AirTicketsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsCoordinator.swift; sourceTree = "<group>"; };
+		1F944B492C14538E00ECA891 /* HotelsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsCoordinator.swift; sourceTree = "<group>"; };
+		1F944B4B2C14545C00ECA891 /* ShortCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortCoordinator.swift; sourceTree = "<group>"; };
+		1F944B4D2C1454F100ECA891 /* SubscriptionsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsCoordinator.swift; sourceTree = "<group>"; };
+		1F944B4F2C14554600ECA891 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F944B1C2C14458000ECA891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F509C392C145D9F00CADBB5 /* AirTicketsModule */ = {
+			isa = PBXGroup;
+			children = (
+				1F509C3A2C145DD000CADBB5 /* AirTicketsVC.swift */,
+				1F509C3C2C145DDE00CADBB5 /* AirTicketsVM.swift */,
+				1F509C522C14667300CADBB5 /* AirTicketsDetailVC.swift */,
+				1F509C542C1466B300CADBB5 /* AirTicketsDetailVM.swift */,
+				1F509C592C14CEF900CADBB5 /* ModalScreenVC.swift */,
+				1F509C652C171EE600CADBB5 /* ModalScreenVM.swift */,
+			);
+			path = AirTicketsModule;
+			sourceTree = "<group>";
+		};
+		1F509C3E2C145DEF00CADBB5 /* HotelsModule */ = {
+			isa = PBXGroup;
+			children = (
+				1F509C3F2C145E2B00CADBB5 /* HotelsVC.swift */,
+				1F509C412C145E4300CADBB5 /* HotelsVM.swift */,
+			);
+			path = HotelsModule;
+			sourceTree = "<group>";
+		};
+		1F509C432C145E5B00CADBB5 /* ShortModule */ = {
+			isa = PBXGroup;
+			children = (
+				1F509C442C145E8D00CADBB5 /* ShortVC.swift */,
+				1F509C462C145EA600CADBB5 /* ShortVM.swift */,
+			);
+			path = ShortModule;
+			sourceTree = "<group>";
+		};
+		1F509C482C145EAE00CADBB5 /* SubscriptionModule */ = {
+			isa = PBXGroup;
+			children = (
+				1F509C4E2C145F0600CADBB5 /* SubscriptionVC.swift */,
+				1F509C4A2C145EE500CADBB5 /* SubscriptionVM.swift */,
+			);
+			path = SubscriptionModule;
+			sourceTree = "<group>";
+		};
+		1F509C492C145EC100CADBB5 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				1F509C502C145F2100CADBB5 /* ProfileVC.swift */,
+				1F509C4C2C145EEF00CADBB5 /* ProfileVM.swift */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		1F509C562C14C61B00CADBB5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1F509C572C14C63300CADBB5 /* ExtUIView.swift */,
+				1F509C612C171A1F00CADBB5 /* ButtonsModel.swift */,
+				1F509C632C171BE800CADBB5 /* ButtonsCell.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		1F944B162C14458000ECA891 = {
+			isa = PBXGroup;
+			children = (
+				1F509C562C14C61B00CADBB5 /* Library */,
+				1F944B362C14459B00ECA891 /* Coordinators */,
+				1F944B212C14458000ECA891 /* EffectivaMobile */,
+				1F944B202C14458000ECA891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F944B202C14458000ECA891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F944B1F2C14458000ECA891 /* EffectivaMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F944B212C14458000ECA891 /* EffectivaMobile */ = {
+			isa = PBXGroup;
+			children = (
+				1F944B222C14458000ECA891 /* AppDelegate.swift */,
+				1F944B242C14458000ECA891 /* SceneDelegate.swift */,
+				1F944B2B2C14458200ECA891 /* Assets.xcassets */,
+				1F944B2D2C14458200ECA891 /* LaunchScreen.storyboard */,
+				1F944B302C14458200ECA891 /* Info.plist */,
+				1F944B3F2C14518A00ECA891 /* Flows */,
+			);
+			path = EffectivaMobile;
+			sourceTree = "<group>";
+		};
+		1F944B362C14459B00ECA891 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				1F944B3A2C144D0000ECA891 /* BaseCoordinator.swift */,
+				1F944B3C2C144F3500ECA891 /* MainCoordinator.swift */,
+				1F509C672C17214300CADBB5 /* ButtonsCoordinatorProtocol.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		1F944B3F2C14518A00ECA891 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				1F944B462C14520900ECA891 /* TicketsFlow */,
+				1F944B452C14520600ECA891 /* HotelsFlow */,
+				1F944B442C14520400ECA891 /* ShortFlow */,
+				1F944B432C1451EC00ECA891 /* SubscriptionFlow */,
+				1F944B422C1451C200ECA891 /* ProfileFlow */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		1F944B422C1451C200ECA891 /* ProfileFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1F944B4F2C14554600ECA891 /* ProfileCoordinator.swift */,
+				1F509C492C145EC100CADBB5 /* ProfileModule */,
+			);
+			path = ProfileFlow;
+			sourceTree = "<group>";
+		};
+		1F944B432C1451EC00ECA891 /* SubscriptionFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1F944B4D2C1454F100ECA891 /* SubscriptionsCoordinator.swift */,
+				1F509C482C145EAE00CADBB5 /* SubscriptionModule */,
+			);
+			path = SubscriptionFlow;
+			sourceTree = "<group>";
+		};
+		1F944B442C14520400ECA891 /* ShortFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1F944B4B2C14545C00ECA891 /* ShortCoordinator.swift */,
+				1F509C432C145E5B00CADBB5 /* ShortModule */,
+			);
+			path = ShortFlow;
+			sourceTree = "<group>";
+		};
+		1F944B452C14520600ECA891 /* HotelsFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1F944B492C14538E00ECA891 /* HotelsCoordinator.swift */,
+				1F509C3E2C145DEF00CADBB5 /* HotelsModule */,
+			);
+			path = HotelsFlow;
+			sourceTree = "<group>";
+		};
+		1F944B462C14520900ECA891 /* TicketsFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1F944B472C14525B00ECA891 /* AirTicketsCoordinator.swift */,
+				1F509C392C145D9F00CADBB5 /* AirTicketsModule */,
+			);
+			path = TicketsFlow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F944B1E2C14458000ECA891 /* EffectivaMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F944B332C14458200ECA891 /* Build configuration list for PBXNativeTarget "EffectivaMobile" */;
+			buildPhases = (
+				1F944B1B2C14458000ECA891 /* Sources */,
+				1F944B1C2C14458000ECA891 /* Frameworks */,
+				1F944B1D2C14458000ECA891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EffectivaMobile;
+			productName = EffectivaMobile;
+			productReference = 1F944B1F2C14458000ECA891 /* EffectivaMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F944B172C14458000ECA891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1F944B1E2C14458000ECA891 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1F944B1A2C14458000ECA891 /* Build configuration list for PBXProject "EffectivaMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F944B162C14458000ECA891;
+			productRefGroup = 1F944B202C14458000ECA891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F944B1E2C14458000ECA891 /* EffectivaMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F944B1D2C14458000ECA891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F944B2C2C14458200ECA891 /* Assets.xcassets in Resources */,
+				1F944B2F2C14458200ECA891 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F944B1B2C14458000ECA891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F509C512C145F2100CADBB5 /* ProfileVC.swift in Sources */,
+				1F509C4B2C145EE500CADBB5 /* SubscriptionVM.swift in Sources */,
+				1F944B4A2C14538E00ECA891 /* HotelsCoordinator.swift in Sources */,
+				1F944B232C14458000ECA891 /* AppDelegate.swift in Sources */,
+				1F509C4D2C145EEF00CADBB5 /* ProfileVM.swift in Sources */,
+				1F944B252C14458000ECA891 /* SceneDelegate.swift in Sources */,
+				1F509C642C171BE800CADBB5 /* ButtonsCell.swift in Sources */,
+				1F509C682C17214300CADBB5 /* ButtonsCoordinatorProtocol.swift in Sources */,
+				1F509C582C14C63300CADBB5 /* ExtUIView.swift in Sources */,
+				1F509C532C14667300CADBB5 /* AirTicketsDetailVC.swift in Sources */,
+				1F509C552C1466B300CADBB5 /* AirTicketsDetailVM.swift in Sources */,
+				1F509C402C145E2B00CADBB5 /* HotelsVC.swift in Sources */,
+				1F509C3D2C145DDE00CADBB5 /* AirTicketsVM.swift in Sources */,
+				1F509C3B2C145DD000CADBB5 /* AirTicketsVC.swift in Sources */,
+				1F509C4F2C145F0600CADBB5 /* SubscriptionVC.swift in Sources */,
+				1F509C5A2C14CEF900CADBB5 /* ModalScreenVC.swift in Sources */,
+				1F509C622C171A1F00CADBB5 /* ButtonsModel.swift in Sources */,
+				1F944B3D2C144F3500ECA891 /* MainCoordinator.swift in Sources */,
+				1F944B4C2C14545C00ECA891 /* ShortCoordinator.swift in Sources */,
+				1F509C452C145E8D00CADBB5 /* ShortVC.swift in Sources */,
+				1F509C422C145E4300CADBB5 /* HotelsVM.swift in Sources */,
+				1F509C472C145EA600CADBB5 /* ShortVM.swift in Sources */,
+				1F509C662C171EE600CADBB5 /* ModalScreenVM.swift in Sources */,
+				1F944B3B2C144D0000ECA891 /* BaseCoordinator.swift in Sources */,
+				1F944B4E2C1454F100ECA891 /* SubscriptionsCoordinator.swift in Sources */,
+				1F944B502C14554600ECA891 /* ProfileCoordinator.swift in Sources */,
+				1F944B482C14525C00ECA891 /* AirTicketsCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F944B2D2C14458200ECA891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F944B2E2C14458200ECA891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F944B312C14458200ECA891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F944B322C14458200ECA891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F944B342C14458200ECA891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BFYV367MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectivaMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xCode.EffectivaMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F944B352C14458200ECA891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BFYV367MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectivaMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xCode.EffectivaMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F944B1A2C14458000ECA891 /* Build configuration list for PBXProject "EffectivaMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F944B312C14458200ECA891 /* Debug */,
+				1F944B322C14458200ECA891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F944B332C14458200ECA891 /* Build configuration list for PBXNativeTarget "EffectivaMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F944B342C14458200ECA891 /* Debug */,
+				1F944B352C14458200ECA891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F944B172C14458000ECA891 /* Project object */;
+}
